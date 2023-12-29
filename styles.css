@@ -32,9 +32,14 @@ h1{
 .conteudo{
     text-align: center;
 }
+.conteudo p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 .container{
-    width: 100%;
+    max-width: 800px;
     max-height: 400px;
     display: flex;
     flex-wrap: wrap;
@@ -71,11 +76,19 @@ button:hover{
     background-color: rgb(88, 3, 122);
 }
 
-.vinte{
+.bom{
     background-color: rgb(13, 219, 75);
 }
 .um{
     background-color: rgb(13, 219, 75);
+}
+
+.maybe{
+    background-color: rgb(181, 219, 13);
+}
+
+.hard{
+    background-color: rgb(213, 255, 25);
 }
 
 .raro{
