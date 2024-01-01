@@ -96,12 +96,12 @@ function handleClick(){
     }
     var sete = '';
     if(lastResultado.includes(7)){
-        sete = 'Contém 7, número que não cai frequentemente.';
+        sete = 'Contém 7, número que não cai frequentemente...';
     }
 
     var quinze = '';
     if(lastResultado.includes(7)){
-        quinze = 'Contém 15, número que não cai frequentemente.';
+        quinze = 'Contém 15, número que não cai frequentemente...';
     }
     //ENS
 
