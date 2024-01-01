@@ -49,7 +49,7 @@ function handleClick(){
         return a - b;
     });
 
-
+    //Especificando Coluna em que números são sorteados.
     var id = '';
     var raramente = '';
     if(lastResultado.indexOf(5) === 0){
@@ -73,7 +73,6 @@ function handleClick(){
     if(lastResultado.indexOf(4) === 1){
         id2 = 'maybe'
     }
-    
 
     var id3 = '';
     if(lastResultado.indexOf(4) === 2){
@@ -84,19 +83,35 @@ function handleClick(){
     if(lastResultado.lastIndexOf(25) === 14){
         lastNumb = 'maybe';
     }
+    if(lastResultado.lastIndexOf(24) === 14){
+        lastNumb = 'maybe';
+    }
+    
 
 
+    //Especificando Números Sorteados
     var vinte = ''
     if(lastResultado.includes(20)){
         vinte = 'Contém 20, o número mais sorteado.';
     }
+    var sete = '';
+    if(lastResultado.includes(7)){
+        sete = 'Contém 7, número que não cai frequentemente.';
+    }
 
+    var quinze = '';
+    if(lastResultado.includes(7)){
+        quinze = 'Contém 15, número que não cai frequentemente.';
+    }
+    //ENS
 
     container.innerHTML += 
     `
     <div class="conteudo">
         <p>JOGO: ${value}</p>
         <p style="color: green">${vinte}</p>
+        <p style="color: yellow">${sete}</p>
+        <p style="color: yellow">${quinze}</p>
         <p style="color: red">${raramente}</p>
     </div>
     <div class="container">

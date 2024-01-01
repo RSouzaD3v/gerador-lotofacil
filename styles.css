@@ -79,16 +79,14 @@ button:hover{
 .bom{
     background-color: rgb(13, 219, 75);
 }
-.um{
-    background-color: rgb(13, 219, 75);
-}
 
 .maybe{
     background-color: rgb(181, 219, 13);
 }
 
 .hard{
-    background-color: rgb(213, 255, 25);
+    background-color: rgb(237, 255, 0);
+    color: black;
 }
 
 .raro{
